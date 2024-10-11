@@ -1,5 +1,10 @@
 @echo off
 
+REM aggiorno la repository 
+echo Aggiornamento della repository in corso...
+git pull
+git submodule update --init --recursive
+
 REM Controllo se esiste il container Docker Vallauri_Orientamento_backend
 echo Rimozione del container Docker Vallauri_Orientamento_backend in corso...
 
