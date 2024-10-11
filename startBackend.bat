@@ -3,7 +3,7 @@
 REM aggiorno la repository 
 echo Aggiornamento della repository in corso...
 git pull
-git submodule update --init --recursive
+git submodule update --init --recursive --remote
 
 REM Controllo se esiste il container Docker Vallauri_Orientamento_backend
 echo Rimozione del container Docker Vallauri_Orientamento_backend in corso...
@@ -23,4 +23,4 @@ REM avvio il container Docker Vallauri_Orientamento_backend
 echo Avvio del container Docker Vallauri_Orientamento_backend in corso...
 docker run -d -p 8000:8000 --name Vallauri_Orientamento_backend vallauri_orientamento_backend
 
-echo Il container docker Vallauri_Orientamento_backend  e' stato avviato correttamente, è accessibile all'indirizzo http://127.0.0.1:8000/.
+echo Il container docker Vallauri_Orientamento_backend  e' stato avviato correttamente, e' accessibile all'indirizzo http://127.0.0.1:8000/.
