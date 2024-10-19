@@ -1,6 +1,6 @@
 [submodule "backend"]
 	path = backend
-	url = https://github.com/FedericoZorgnotto/Vallauri-Orientamento-Backend
+	url = https://github.com/FedericoZorgnotto/Vallauri-Orientati-Backend
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/FedericoZorgnotto/Vallauri-Orientamento-Frontend
+	url = https://github.com/FedericoZorgnotto/Vallauri-Orientati-Frontend
