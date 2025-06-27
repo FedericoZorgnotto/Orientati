@@ -1,0 +1,14 @@
+name: 🔧 Bug Infrastruttura
+description: Segnalazione di problemi di configurazione o deploy
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: Descrizione del problema
+      placeholder: Es. L’ambiente di staging non si avvia, errore nella build...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Log o output della console

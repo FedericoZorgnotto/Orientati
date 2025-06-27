@@ -1,0 +1,23 @@
+name: 🧱 Task Infrastruttura
+description: Richiesta per Docker, CI/CD, ambiente di staging, ecc.
+labels: [task]
+body:
+  - type: textarea
+    attributes:
+      label: Descrizione del lavoro richiesto
+      description: Es. Creare pipeline GitHub Actions per il deploy automatico
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Ambito
+      options:
+        - CI/CD
+        - Docker / Compose
+        - Hosting / Server
+        - Ambiente di sviluppo
+        - Sicurezza
+        - Altro
+    validations:
+      required: true
